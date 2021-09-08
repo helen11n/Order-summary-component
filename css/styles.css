@@ -140,6 +140,11 @@ body {
   font-weight: 500;
 }
 
+.plan-link {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .plan-link a {
   text-decoration: underline;
   color: var(--primary-bright-blue);
@@ -149,8 +154,6 @@ body {
 
 .plan-link a:hover {
   color: var(--neutral-desaturated-blue);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
   text-decoration: none;
 }
 
@@ -173,13 +176,13 @@ body {
   width: 100%;
   -webkit-box-shadow: 0 10px 20px rgba(114, 128, 167, 0.5);
           box-shadow: 0 10px 20px rgba(114, 128, 167, 0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .payment button:hover {
   background-color: var(--neutral-desaturated-blue);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  cursor: pointer;
 }
 
 .cancel {
